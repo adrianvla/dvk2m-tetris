@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тетрис ДВК-2м</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="leaderboard-c">
+        <div class="leaderboard"></div>
+    </div>
+    <div class="yn-c ui">
+        <div class="yn">
+            ВАШЕ ИМЯ?<span id='yourname'></span>
+        </div>
+    </div>
+    <div class="main">
+        <div class="bar"></div>
+        <div class="c">
+            <div class="left">
+                <div class="e1">
+                    <span>ПОЛНЫХ СТРОК:</span>
+                    <span>УРОВЕНЬ:</span>
+                    <span><span>&nbsp;&nbsp;СЧЕТ:</span>&nbsp;&nbsp;&nbsp;&nbsp;<span class="score">0</span></span>
+                </div>
+                <div class="e2">
+                    <span class='lines'>0</span>
+                    <span class='level'>0</span>
+                </div>
+            </div>
+            <div class="tetris">
+
+                <div class="next-c">
+                    <div class="next">
+                        <div class="t">
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                        </div>
+                        <div class="t">
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                        </div>
+                        <div class="t">
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                        </div>
+                        <div class="t">
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                            <div class="ell"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="disp">
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="row">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="el"></div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="roww">
+                        <div class="u">
+                            <</div> <div class="u">!
+                        </div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="uu">=</div>
+                        <div class="u">!</div>
+                        <div class="u">></div>
+                    </div>
+                    <div class="rowww">
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                        <div class="uu">\/</div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="r"></div>
+        </div>
+    </div>
+
+    <script src="libs.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

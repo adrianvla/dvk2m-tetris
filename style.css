@@ -1,0 +1,160 @@
+.row{
+    display:flex;
+    flex-direction:row;
+    margin: 0;
+}
+@font-face {
+    font-family: sp7;
+    src: url(smallest-pixel-7.regular.ttf);
+}
+body{
+    margin: 0;
+    font-family: sp7;
+    background:#1c1d1e;
+    overflow: hidden;
+    color:#e9fcff;
+    font-size:25px;
+
+}
+.e1{
+display:flex;
+flex-direction:column;
+}
+.e2{
+    margin-left:20px;
+display:flex;
+flex-direction:column;
+}
+.left{
+    display:flex;
+    flex-direction: row;
+}
+.next-c{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.tetris{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+.disp{
+    
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.center{
+    
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+.main{
+    margin:50px;
+    display:flex;
+    flex-direction:column;
+
+}
+.c{
+
+    display: grid; 
+
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    gap: 0px;
+    height: 100%;
+}
+
+.row{
+    display:flex;
+    flex-direction:row;
+}
+.t{
+    
+    display:flex;
+    flex-direction:row;
+}
+.el,.ell{
+    width:20px;
+    height:20px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.u{
+
+    width:10px;
+    height:20px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.r{
+
+}
+.ui{
+    display:none !important;
+}
+.yn-c{
+    position:absolute;
+    margin-left:50px;
+    height:100%;
+    z-index:73498721649817236497;
+    left:0;
+    top:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.leaderboard-c{
+    position:absolute;
+    margin-left:50px;
+    height:100%;
+    width:100%;
+    z-index:73498721649817236497;
+    left:0;
+    top:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.uu{
+    
+    width:20px;
+    height:20px;
+    
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+}
+.roww{
+    display:flex;
+    flex-direction:row;
+}
+.rowww{
+    display:flex;
+    flex-direction:row;
+}
+.j{
+    display:flex;
+    flex-direction: column;
+    margin: 0;
+}
+.el{
+    margin:0px;
+}
