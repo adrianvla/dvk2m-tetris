@@ -16,3 +16,6 @@ If you use it somewhere please make sure to credit me
 
 
 Live Preview: https://projects.morisinc.net/dvk2m_tetris/
+
+
+### By Adapting/downloading this, you agree to [CC By Nc](https://creativecommons.org/licenses/by-nc/4.0/)
